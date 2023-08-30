@@ -1,0 +1,91 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10sp"
+        android:scrollbars="none"
+        android:background="#FFFFFF">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:text="5x5棋盘，60!/4 种不同的走法。
+                \n3x3棋盘，24!/4 种不同的走法。
+                \nNxN棋盘，{N*(N+1)*2}!/4 种不同的走法。
+                \n我们把走法称之为状态，
+                \n五子棋有125! 种状态，
+                \n围棋有361! 种状态，
+                \n魔方有4*10^19 种状态，
+                \n有些状态数，一个人究其一生也数不完，
+                \n借助计算机，我们可以以凡人之躯比肩神明！">
+            </TextView>
+
+            <ImageView
+                android:id="@+id/image1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@mipmap/one" />
+
+            <ImageView
+                android:id="@+id/image2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@mipmap/two" />
+
+            <ImageView
+                android:id="@+id/image3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@mipmap/three" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="italic"
+                android:text="\n\n提供者：魏子涵，庄忠旭，杨爽\n\n"
+                >
+            </TextView>
+
+            <Button
+                android:id="@+id/help_share"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="分 享"
+                android:background="#FFFFFF"
+                android:textSize="20sp"
+                android:padding="15dp"
+                >
+            </Button>
+            <Button
+                android:id="@+id/help_return"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="返 回"
+                android:background="#FFFFFF"
+                android:textSize="20sp"
+                android:padding="15dp">
+            </Button>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

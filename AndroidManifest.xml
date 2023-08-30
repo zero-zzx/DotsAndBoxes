@@ -1,0 +1,47 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.zzx.apackage">
+
+<application
+
+    android:allowBackup="true"
+    android:hardwareAccelerated="true"
+    android:icon="@mipmap/ic_launcher"
+    android:label="@string/app_name"
+    android:theme="@android:style/Theme.Light.NoTitleBar">
+    <activity
+        android:name=".view.SplashActivity"
+        android:label="@string/title_activity_main"
+        android:screenOrientation="portrait"
+        android:exported="true">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+    </activity>
+    <activity
+        android:name=".view.MainActivity"
+        android:label="@string/title_activity_main"
+        android:screenOrientation="portrait">
+    </activity>
+    <activity
+        android:name=".view.DoubleActivity"
+        android:label="@string/title_activity_board"
+        android:screenOrientation="portrait" >
+    </activity>
+    <activity
+        android:name=".view.HelpActivity"
+        android:label="@string/title_activity_help"
+        android:screenOrientation="portrait" >
+    </activity>
+    <activity
+        android:name=".view.SingleActivity"
+        android:label="@string/title_activity_single"
+        android:screenOrientation="portrait" >
+    </activity>
+    <activity
+        android:name=".view.SoundSettingActivity"
+        android:label="@string/title_activity_sound"
+        android:screenOrientation="portrait" >
+    </activity>
+</application>
+</manifest>

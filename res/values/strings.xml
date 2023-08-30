@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">完全信息博弈之点格棋</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_board">Board</string>
+    <string name="title_activity_main">完全信息博弈之点格棋</string>
+    <string name="Player1">玩家一</string>
+    <string name="Player2">玩家二</string>
+    <string name="title_activity_help">Help</string>
+    <string name="title_activity_single">Single</string>
+    <string name="title_activity_singlee">Singlee</string>
+    <string name="title_activity_single1">Single1</string>
+    <string name="title_activity_single2">Single2</string>
+    <string name="title_activity_single3">Single3</string>
+    <string name="title_activity_single4">Single4</string>
+    <string name="Computer">Computer</string>
+    <string name="Normal">Normal</string>
+    <string name="Hard">Hard</string>
+    <string name="Ultra">Ultra</string>
+    <string name="title_activity_sound">Sound</string>
+    <string name="share_desc"> 点格棋，支持双人对战和人机对战，功能丰富，让你爱不释手。github源码及下载链接：</string>
+    <string name="my_source_url">https://github.com/zzx0818/DotsAndBoxes</string>
+
+
+</resources>

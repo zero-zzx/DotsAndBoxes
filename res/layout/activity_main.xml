@@ -1,0 +1,55 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/xushimonv">
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:gravity="fill_horizontal"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/imageButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#55FFFFcc"
+            android:layout_margin="10sp"
+            android:text="人机对战"
+            android:textSize="40sp"/>
+
+        <Button
+            android:id="@+id/imageButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#55FFFFcc"
+            android:layout_margin="10sp"
+            android:text="双人对战"
+            android:textSize="40sp" />
+
+        <Button
+            android:id="@+id/imageButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#55FFFFcc"
+            android:layout_margin="10sp"
+            android:text="     声音   "
+            android:textSize="40sp" />
+
+        <Button
+            android:id="@+id/imageButton6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#55FFFFcc"
+            android:layout_margin="10sp"
+            android:text="     关于   "
+            android:textSize="40sp" />
+
+    </LinearLayout>
+
+</RelativeLayout>
